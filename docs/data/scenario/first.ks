@@ -1,23 +1,29 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="LINEに既読をつけるか無視するメロス"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「LINEに既読をつけるか無視するメロス」[l][r]
 
 メロスは激怒した。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
-
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
+なぜなら、セリヌンティウスからLINEを未読のまま３時間放置していたからだ。[l][r]
+「明日暇？」[r]
+それは、たった一言のメッセージ。しかし、彼の指は動かない。[l][r]
+[r]
+そのメッセージの裏には無数の可能性が潜んでいる。[r]
+ー友情か、睡眠か。[r]
+[r][l]
 メロスは...[l][r]
 
+
+[r]
+
+[link target=*tag_run] →「ひま」と返す。[endlink][r]
 [link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_good] →既読だけつける。[endlink][r]
 [s]
 
 *tag_sleep
@@ -38,9 +44,30 @@
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+メロスは力強く返事をした。[r]
+「ひま！」[r][l]
+[r]
+数分後、セリヌンティウスから返事が届く。[r][l]
+「バイトのシフト、変わってくんね？」[r][l]
+[bg storage=sleep.jpg time=500]
+【 BAD END 】[l][cm]
+
+[jump target=*start]
+
+*tag_good
+
+[bg storage=run.jpg time=500]
+
+[cm]
+
+メロスは意を決して画面を開く。[r]
+その瞬間、セリヌンティウスからの連投。[r][l]
+「バイト入っちゃったから、替わりに合コン行ってほしい。」[r][l]
+[r]
+メロスは走った。[r]
+友に感謝して。そして、新たな出会いのために。[r][l]
+
+【 TRUE END 】[l][cm]
 
 [jump target=*start]
